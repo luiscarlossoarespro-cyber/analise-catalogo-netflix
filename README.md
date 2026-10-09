@@ -1,65 +1,63 @@
-# Netflix — Análise do Catálogo de Filmes e Séries
+<h1 align="center">Netflix — Análise do Catálogo de Filmes e Séries</h1>
 
-> Painel interativo no Tableau Public com a distribuição de filmes e séries da Netflix por país, ano de lançamento e tendência mensal de inclusão no catálogo.
+<p align="center"><b>7.659 títulos</b> organizados em um dashboard interativo: filmes x séries, países, anos de lançamento e tendência mensal de inclusão.</p>
 
-![Tableau](https://img.shields.io/badge/Tableau%20Public-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Status](https://img.shields.io/badge/projeto-guiado%20(curso)-6fa8ff?style=flat-square)
+<p align="center">
+  <a href="https://public.tableau.com/app/profile/lu.s.carlos.machado.soares/viz/Livro1_17865361765710/Netflix"><img src="https://img.shields.io/badge/%E2%96%B6%20Abrir%20dashboard-Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Abrir dashboard"></a>
+  <a href="https://luiscarlossoarespro-cyber.github.io/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-outros%20projetos-6fa8ff?style=for-the-badge" alt="Portfólio"></a>
+  <a href="https://www.linkedin.com/in/luiscarlos-log/"><img src="https://img.shields.io/badge/LinkedIn-conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
 
-[![Abrir no Tableau Public](https://img.shields.io/badge/Abrir%20o%20dashboard-Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/lu.s.carlos.machado.soares/viz/Livro1_17865361765710/Netflix)
+<!-- DEMO -->
 
-## Acesse
-
-| | |
-|---|---|
-| **Dashboard interativo** | [Tableau Public — Netflix](https://public.tableau.com/app/profile/lu.s.carlos.machado.soares/viz/Livro1_17865361765710/Netflix) |
 
 ---
 
-## 1. Problema de negócio
+## O problema
 
-Um catálogo de streaming tem milhares de títulos. Para decisões de conteúdo, é preciso entender **o que existe no catálogo, de onde vem e de quando é**, de forma visual e filtrável.
+Um catálogo de streaming tem milhares de títulos. Para decidir sobre conteúdo, é preciso entender **o que existe no catálogo, de onde vem e quando foi incluído** — de forma visual e fácil de filtrar.
 
-## 2. Perguntas que o projeto responde
+## O que o dashboard responde
 
-- Qual a proporção entre **filmes e séries** no catálogo?
-- Quais **países** mais produzem títulos presentes na Netflix?
-- Em quais **anos de lançamento** o catálogo se concentra?
-- Como evoluiu, **mês a mês**, a inclusão de títulos no catálogo?
-- Qual a **duração** típica (minutos para filmes, temporadas para séries)?
+| Pergunta | Onde a resposta aparece |
+|---|---|
+| Qual a proporção entre filmes e séries? | **Gráfico de pizza** |
+| Quais países têm mais títulos no catálogo? | **Mapa** |
+| Em quais anos de lançamento o catálogo se concentra? | **Barras por ano** |
+| Como evoluiu, mês a mês, a inclusão de títulos? | **Evolução e tendência mensal** |
+| Qual a duração típica dos títulos? | **Tabela de duração** |
 
-## 3. Dados
+## Principais achados
 
-- **Base:** catálogo de filmes e séries da Netflix fornecido pela Mate Academy (curso Técnico em Análise de Dados).
+- 🎬 **70% filmes (5.366)** e **30% séries (2.293)**
+- 🇺🇸 **Estados Unidos** lideram com folga: **2.732 títulos**
+- 📅 **2018** é o ano de lançamento com mais títulos (1.142), seguido de 2019 (1.028) e 2020 (952)
+
+## Como foi feito
+
+| Etapa | Ferramenta |
+|---|---|
+| Visualização, mapa e filtros | Tableau Public |
+| Base de dados | Catálogo Netflix fornecido pela Mate Academy (curso Técnico em Análise de Dados) |
+
+<details>
+<summary><b>Detalhes técnicos</b></summary>
+
+<br>
+
 - **Campos usados:** tipo, país, ano de lançamento, data de inclusão, diretor e duração.
+- **Filtros:** país, data de inclusão, ano de lançamento e diretor.
+- **Projeto guiado** do curso, publicado no Tableau Public.
 
-## 4. Ferramentas
+</details>
 
-| Camada | Ferramenta |
-|---|---|
-| Visualização e filtros | Tableau Public |
+## Próximos passos
 
-## 5. Solução
-
-- Gráfico de pizza com a divisão entre filmes e séries.
-- Mapa de títulos por país.
-- Barras por ano de lançamento.
-- Tabela de duração (total de títulos, temporadas e média de temporadas).
-- Filtros por país, data de inclusão, ano de lançamento e diretor.
-
-## 6. Principais resultados
-
-- O catálogo é majoritariamente de **filmes: 70,06% (5.366 títulos)** contra **29,94% de séries (2.293)**.
-- Os **Estados Unidos** lideram com folga (2.732 títulos).
-- **2018** é o ano de lançamento com mais títulos (1.142), seguido de 2019 (1.028) e 2020 (952).
-
-## 7. Aprendizados e próximos passos
-
-- **Aprendi:** montar um dashboard no Tableau, usar mapas e filtros de ação e publicar no Tableau Public.
-- **Próximos passos:** análise de gêneros e classificação indicativa, e evolução da inclusão de títulos por ano.
+Análise de gêneros e classificação indicativa, e comparação da inclusão de títulos por ano.
 
 ---
 
-## Autor
-
-**Luis Carlos Machado Soares** · mais de 16 anos em operações e logística, em transição para Análise de Dados
-[LinkedIn](https://www.linkedin.com/in/luiscarlos-log) · [Portfólio](https://luiscarlossoarespro-cyber.github.io/)
+<p align="center">
+<b>Luis Carlos Machado Soares</b> · mais de 16 anos em operações e logística, aplicando Análise de Dados à tomada de decisão<br>
+<a href="https://www.linkedin.com/in/luiscarlos-log/">LinkedIn</a> · <a href="https://luiscarlossoarespro-cyber.github.io/">Portfólio</a> · <a href="https://github.com/luiscarlossoarespro-cyber">GitHub</a>
+</p>
