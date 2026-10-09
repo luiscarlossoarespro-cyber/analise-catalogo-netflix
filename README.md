@@ -5,7 +5,7 @@
 ![Tableau](https://img.shields.io/badge/Tableau%20Public-E97627?style=flat-square&logo=tableau&logoColor=white)
 ![Status](https://img.shields.io/badge/projeto-guiado%20(curso)-6fa8ff?style=flat-square)
 
-![Prévia do dashboard](assets/cover.png)
+[![Abrir no Tableau Public](https://img.shields.io/badge/Abrir%20o%20dashboard-Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/lu.s.carlos.machado.soares/viz/Livro1_17865361765710/Netflix)
 
 ## Acesse
 
