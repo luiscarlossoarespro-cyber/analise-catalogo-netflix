@@ -1,6 +1,6 @@
 # Netflix — Análise do Catálogo de Filmes e Séries
 
-> Dashboard no Tableau Public que mostra a composição do catálogo da Netflix: tipo de conteúdo, países, anos de lançamento e duração.
+> Painel interativo no Tableau Public com a distribuição de filmes e séries da Netflix por país, ano de lançamento e tendência mensal de inclusão no catálogo.
 
 ![Tableau](https://img.shields.io/badge/Tableau%20Public-E97627?style=flat-square&logo=tableau&logoColor=white)
 ![Status](https://img.shields.io/badge/projeto-guiado%20(curso)-6fa8ff?style=flat-square)
@@ -24,11 +24,12 @@ Um catálogo de streaming tem milhares de títulos. Para decisões de conteúdo,
 - Qual a proporção entre **filmes e séries** no catálogo?
 - Quais **países** mais produzem títulos presentes na Netflix?
 - Em quais **anos de lançamento** o catálogo se concentra?
+- Como evoluiu, **mês a mês**, a inclusão de títulos no catálogo?
 - Qual a **duração** típica (minutos para filmes, temporadas para séries)?
 
 ## 3. Dados
 
-- **Base:** catálogo público de filmes e séries da Netflix, usada no curso de Análise de Dados.
+- **Base:** catálogo de filmes e séries da Netflix fornecido pela Mate Academy (curso Técnico em Análise de Dados).
 - **Campos usados:** tipo, país, ano de lançamento, data de inclusão, diretor e duração.
 
 ## 4. Ferramentas
@@ -60,5 +61,5 @@ Um catálogo de streaming tem milhares de títulos. Para decisões de conteúdo,
 
 ## Autor
 
-**Luis Carlos Machado Soares** · 19 anos em logística e operações, em transição para Análise de Dados
+**Luis Carlos Machado Soares** · mais de 16 anos em operações e logística, em transição para Análise de Dados
 [LinkedIn](https://www.linkedin.com/in/luiscarlos-log) · [Portfólio](https://luiscarlossoarespro-cyber.github.io/)
