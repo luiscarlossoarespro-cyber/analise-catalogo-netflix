@@ -41,6 +41,16 @@ Um catálogo de streaming tem milhares de títulos. Para decidir sobre conteúdo
 - 🇺🇸 **Estados Unidos** lideram com folga: **2.732 títulos**
 - 📅 **2018** é o ano de lançamento com mais títulos (1.142), seguido de 2019 (1.028) e 2020 (952)
 
+## Limitações
+
+**Projeto guiado:** a base foi fornecida pelo curso, e a origem original dela não foi verificada. Este projeto mostra domínio da ferramenta (Tableau Public), não uma análise de negócio própria.
+
+**O que os números não dizem:** o dashboard conta títulos no catálogo; ele não mede audiência, receita nem desempenho de cada título. Ele descreve o catálogo, mas não explica por que ele é assim.
+
+## Uso de IA e o que foi feito por mim
+
+Usei IA como apoio para revisar o texto deste README. O dashboard, a escolha dos gráficos e dos filtros e a leitura dos resultados foram feitos por mim.
+
 ## Como foi feito
 
 | Etapa | Ferramenta |
